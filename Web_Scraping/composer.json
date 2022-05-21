@@ -1,0 +1,17 @@
+{
+    "name": "eldor/webgrab",
+    "autoload": {
+        "psr-4": {
+            "Eldor\\Webgrab\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ruslan",
+            "email": "ruslan.aliyev@siliconstack.com.au"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.4"
+    }
+}
