@@ -9,7 +9,7 @@ https://sourceforge.net/projects/simplehtmldom/
 
 include('simple_html_dom.php');
 
-$url = "xxx";\
+$url = "xxx";
 $html = file_get_html($url); // Type Simple_HTML_DOM_Node
 $occurances = $html->find('.classname');
 ```
